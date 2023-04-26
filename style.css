@@ -135,4 +135,10 @@ nav ul li a :hover::after{
     transition: 3s;
     text-align: center;
    }
+    .sidebar nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
   }
