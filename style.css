@@ -116,3 +116,23 @@ nav ul li a :hover::after{
 .home__social{
     font-size: 20px;
 }
+@media only screen and (max-width: 420px) {
+    .sidebar {
+        height: 70vh;
+        width: 500px;
+        background: white;
+    }
+   .devinfo{
+    float: left;
+    margin-top: 118px;
+    width: 500px;
+    background-color: rgb(253, 246, 212);
+   }
+   .devpic{
+    padding-top: 0%;
+    padding-right: 0px;
+    float: right;
+    transition: 3s;
+    text-align: center;
+   }
+  }
